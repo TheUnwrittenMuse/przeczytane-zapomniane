@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Przeczytane / Zapomniane – Recenzje książek</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f9f5f0;
+      color: #5a4a3c;
+      margin: 40px auto;
+      max-width: 650px;
+      padding: 0 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #7a6650;
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #d4c9ba;
+      margin: 30px 0;
+    }
+    a {
+      color: #7a6650;
+      text-decoration: none;
+      border-bottom: 1px solid #7a6650;
+      transition: color 0.3s, border-color 0.3s;
+    }
+    a:hover {
+      color: #a68c6f;
+      border-color: #a68c6f;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 0.9em;
+      text-align: center;
+      color: #b0a28d;
+    }
+  </style>
+</head>
+<body>
+  <h1>Przeczytane / Zapomniane</h1>
+  <p>Blog o książkach, które warto pamiętać. Znajdziesz tutaj recenzje, przemyślenia i inspiracje czytelnicze.</p>
+
+  <hr />
+
+  <section>
+    <h2>Ostatnie wpisy</h2>
+    <ul>
+      <li><strong>23.06.2025</strong> – <a href="#">Recenzja "Wielka Księga Literatury"</a></li>
+      <li><strong>15.06.2025</strong> – <a href="#">Czy warto czytać klasykę?</a></li>
+      <li><strong>01.06.2025</strong> – <a href="#">Top 5 książek na lato</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    &copy; 2025 TheUnwrittenMuse. Wszystkie prawa zastrzeżone.
+  </footer>
+</body>
+</html>
